@@ -20,7 +20,12 @@ public class HomePage{
 	private WebElement logout;
 	@FindBy(xpath = "//a[text()='Sign Out']")
 	private WebElement signout;
+	@FindBy(linkText = "ProductLink")
+	private WebElement product;
 	
+	public WebElement getProduct() {
+		return product;
+	}
 	@FindBy(linkText = "Contacts")
 	private WebElement contact;
 	@FindBy(linkText = "Productions")
