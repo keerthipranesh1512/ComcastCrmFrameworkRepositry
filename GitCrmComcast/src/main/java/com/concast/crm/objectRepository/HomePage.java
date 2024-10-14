@@ -23,7 +23,8 @@ public class HomePage{
 	
 	@FindBy(linkText = "Contacts")
 	private WebElement contact;
-	
+	@FindBy(linkText = "Productions")
+	private WebElement product;
 	public HomePage(WebDriver driver)
 	{
 	this.driver=driver;
