@@ -10,6 +10,8 @@ public class Product {
 	private WebElement contact;
 	@FindBy(linkText = "Productions")
 	private WebElement product;
+	@FindBy(linkText = "Productis")
+	private WebElement prodct;
 	public Product(WebDriver driver)
 	{
 	
