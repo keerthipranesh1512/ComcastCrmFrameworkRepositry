@@ -17,6 +17,8 @@ public static void main(String[] args)
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	driver.manage().window().maximize();
 	driver.findElement(By.xpath("(//span[@class='nav-line-2'])[2]")).click();
-	driver.quit();
+	
+	driver.close();
+	
 }
 }
