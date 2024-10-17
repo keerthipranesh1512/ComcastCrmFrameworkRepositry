@@ -20,7 +20,6 @@ public static void main(String[] args)
 	ele2.sendKeys("manager");
 	WebElement ele3=driver.findElement(By.id("submitButton"));
 	ele3.click();
-	
 	driver.navigate().refresh();
 	ele1.sendKeys("admin");
 	ele2.sendKeys("manager");
