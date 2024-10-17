@@ -28,7 +28,7 @@ public class Popup {
 		// pop.accept();
 
 		
-	WebDriverWait ew=new WebDriverWait(driver,Duration.ofSeconds(20));
+//	WebDriverWait ew=new WebDriverWait(driver,Duration.ofSeconds(20));
 		ew.until(ExpectedConditions.elementToBeClickable(By.xpath("")));
 		driver.navigate().refresh();
 		driver.navigate().back();
