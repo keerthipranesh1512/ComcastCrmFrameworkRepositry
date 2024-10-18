@@ -71,6 +71,7 @@ public static void main(String[] args)
 	//System.out.println(count);
 	/*for(int i=0;i<count;i++)
 	{
+ drivr.qit;
 		WebElement elems=ele.get(i);
 		String text=elems.getText();
 		System.out.println(text);
